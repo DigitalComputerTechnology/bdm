@@ -195,9 +195,55 @@ h6,
 }
 
 @media (max-width: 576px) {
+    .about .section-title h1,.specialities .section-title h2,.bg-appointment .col-lg-6 h1,.section-title.mb-4 h1,.service-item h3,.bg-offer .offer-text h1{
+        font-size: 20px !important;
+    }
+    .bg-appointment .col-lg-6{
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+
+    }
+    .bg-offer .row .col-lg-3, .col-lg-4{
+        width: 50% !important;
+    }
+    .bg-offer .row .row img{
+        height: 40px !important;
+    }
+    .about .col-lg-7 h4{
+        font-size: 18px !important;
+    }
+    .about .col-lg-7 p,.specialities p,.bg-appointment .col-lg-6 p,.service-item h4,.service-item h2{
+        font-size: 14px !important;
+        text-align: justify;
+    }
+    .about .col-lg-7 .col-sm-6 h5,.specialities .col-lg-5 h5,.specialities .col-lg-5 h1{
+        font-size: 13px !important;
+        text-align: justify;
+    }
+    .team-text h4{
+        font-size: 18px !important;
+    }
+    .team-text p{
+        font-size: 15px !important;
+    }
+    .specialities .col-lg-7 .price-item h4{
+        font-size: 16px !important;
+    }
+    .about .col-lg-7 .col-sm-6{
+        margin-top: 0px !important;         
+    }
+    .about .col-lg-7 a{
+        padding: 0.5rem 1.5rem !important;
+    }
     .carousel-caption h5 {
         font-size: 14px;
         font-weight: 500 !important;
+    }
+    .price-carousel .owl-item .price-item .position-relative.text-center.bg-light.border-bottom.border-primary.py-5.p-4{
+        padding: 20px !important;
+    }
+    .price-carousel .owl-item .price-item .position-relative.text-center.bg-light.border-bottom.border-primary.py-5.p-4 span{
+        font-size: 13px !important;
     }
 
     .carousel-caption h1 {
@@ -365,7 +411,7 @@ h6,
     text-align: justify;
 }
 .specialities .col-lg-7 .price-item h4{
-    font-size: 20px !important;
+    font-size: 20px ;
 }
 
 .price-carousel2 .team-item img{
@@ -409,8 +455,8 @@ h6,
 .price-carousel .owl-nav .owl-prev,
 .price-carousel .owl-nav .owl-next {
     position: relative;
-    width: 45px;
-    height: 45px;
+    width: 30px;
+    height: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
